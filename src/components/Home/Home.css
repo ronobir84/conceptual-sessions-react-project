@@ -1,0 +1,55 @@
+body{
+    /* font-family: monospace, sans-serif; */
+    background:url('https://i.ibb.co/JB1y0X5/4690.jpg'),
+    linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.card{
+    width: 250px;
+    height: 350px;
+    border: 1px solid grey;
+}
+.photo{
+    width: 80px;
+    padding-top: 8px;
+    border-radius: 50%;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.select-button{
+    background-color: darkslategrey;
+}
+.home-container{
+    display: flex;
+}
+.card-container{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.cart-section{
+    border: 2px solid grey;
+    width: 250px;
+}
+
+
+
+@media  screen and (max-width: 560px) {
+    body{
+        width:min-content;
+        height: min-content;
+        justify-content: center;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: column;
+    }
+    }
